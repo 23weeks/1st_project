@@ -1,2 +1,4 @@
-# SJYJ_1st_project
-1st project
+@김예중
+
+프로젝트명 : 미정
+프로젝트목적 : 기술활용 및 증진
