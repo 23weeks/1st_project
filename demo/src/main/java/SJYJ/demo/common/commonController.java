@@ -1,4 +1,4 @@
-package SJYJ.demo.common.controller;
+package SJYJ.demo.common;
 
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
