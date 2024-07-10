@@ -11,18 +11,17 @@
   4. npx create-react-app [프로젝트명] 입력
   5. 설치가 완료되면 Happy Hacking! 이라는 문구가 보임 (꽤나 시간이 걸림 - 3분정도?)
 
-# *** NPM 구동방법
-# CMD로 NPM 구동
+# NPM 구동하는 방법
+1. CMD로 NPM 구동
   1. git 내려받은 루트 (ex : C:\Users\asher\1st_project) 에 demo/prontend 진입
   2. npm start
 
-# * eclipse 에서 NPM 구동
-# 터미널을 통한 구동방법
+2. 터미널을 통한 구동방법
   1. 프로젝트 우클릭 > Show In > Terminal 열기
   2. Terminal에 cd frontend 입력
   3. npm start
      
-# Run Configurations 설정으로 구동방법
+3. Run Configurations 설정으로 구동방법
   1. eclipse 상단 Run > Run Configurations 클릭
   2. Launch NPM > New Configuration
   3. Name 설정 > NPM command 에 start 입력
