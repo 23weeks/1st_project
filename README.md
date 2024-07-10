@@ -3,10 +3,10 @@
 <br>
 
 <h2>NPM 설치 - 이미 설치해둬서 할 필요는 없음</h2>
-  1. node.js 설치
-  2. CMD 실행
-  3. 프로젝트 루트까지 진입 (ex : CD C:\Users\asher\1st_project\demo)
-  4. npx create-react-app [프로젝트명] 입력
+  1. node.js 설치<br>
+  2. CMD 실행<br>
+  3. 프로젝트 루트까지 진입 (ex : CD C:\Users\asher\1st_project\demo)<br>
+  4. npx create-react-app [프로젝트명] 입력<br>
   5. 설치가 완료되면 Happy Hacking! 이라는 문구가 보임 (꽤나 시간이 걸림 - 3분정도?)
 
 <br><br><h2>NPM 구동하는 방법</h2>
