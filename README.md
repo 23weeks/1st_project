@@ -7,7 +7,11 @@
   2. CMD 실행<br>
   3. 프로젝트 루트까지 진입 (ex : CD C:\Users\asher\1st_project\demo)<br>
   4. npx create-react-app [프로젝트명] 입력<br>
-  5. 설치가 완료되면 Happy Hacking! 이라는 문구가 보임 (꽤나 시간이 걸림 - 3분정도?)
+  5. 설치가 완료되면 Happy Hacking! 이라는 문구가 보임 (꽤나 시간이 걸림 - 3분정도?)<br>
+
+<h2>NPM update</h2>
+  1. NPM 설치 3단계까지 똑같음<br>
+  2. npm update
 
 <br><br><h2>NPM 구동하는 방법</h2>
 <h3>1. CMD로 NPM 구동</h3>
