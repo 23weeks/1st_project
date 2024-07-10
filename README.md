@@ -23,7 +23,7 @@
       2) Terminal에 cd frontend 입력
       3) npm start
      
-    ###Run Configurations 설정으로 구동방법
+     ###Run Configurations 설정으로 구동방법
       1) eclipse 상단 Run > Run Configurations 클릭
       2) Launch NPM > New Configuration
       3) Name 설정 > NPM command 에 start 입력
