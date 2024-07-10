@@ -16,7 +16,7 @@
     1) git 내려받은 루트 (ex : C:\Users\asher\1st_project) 에 demo/prontend 진입
     2) npm start
 
-  2. eclipse 에서 NPM 구동
+  3. eclipse 에서 NPM 구동
 
      ###터미널을 통한 구동방법
       1) 프로젝트 우클릭 > Show In > Terminal 열기
