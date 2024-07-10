@@ -17,6 +17,7 @@
     2) npm start
 
   2. eclipse 에서 NPM 구동
+
      ###터미널을 통한 구동방법
       1) 프로젝트 우클릭 > Show In > Terminal 열기
       2) Terminal에 cd frontend 입력
