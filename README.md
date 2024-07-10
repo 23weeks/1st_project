@@ -21,6 +21,7 @@
       1) 프로젝트 우클릭 > Show In > Terminal 열기
       2) Terminal에 cd frontend 입력
       3) npm start
+     
     ###Run Configurations 설정으로 구동방법
       1) eclipse 상단 Run > Run Configurations 클릭
       2) Launch NPM > New Configuration
