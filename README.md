@@ -3,7 +3,7 @@
 <br>
 
 <h2>NPM 설치 - 이미 설치해둬서 할 필요는 없음</h2>
-  1. node.js 설치<br>
+  1. node.js 설치(<a>https://nodejs.org/en</a>)<br>
   2. CMD 실행<br>
   3. 프로젝트 루트까지 진입 (ex : CD C:\Users\asher\1st_project\demo)<br>
   4. npx create-react-app [프로젝트명] 입력<br>
