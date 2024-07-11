@@ -1,3 +1,9 @@
+<div align="left">
+  <img src="https://img.shields.io/badge/Sprig Boot-6DB33F?style=flat-square&logo=Spring Boot&logoColor=white"/>
+  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=Node.js&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Eclipse-2C2255?style=flat-square&logo=Eclipse&logoColor=white"/>
+</div>
 <h3>@김예중</h3>
 <h3>@이상주</h3>
 <br>
