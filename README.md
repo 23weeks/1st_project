@@ -1,4 +1,7 @@
-<h3>@김예중</font></h3>
+<div>
+     <img src="https://img.shields.io/badge/SpringBoot-#6DB33F?style=flat-square&logo=SpringBoot&logoColor=white"/>  
+</div>
+<h3>@김예중</h3>
 <h3>@이상주</h3>
 <br>
 
