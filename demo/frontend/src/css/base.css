@@ -1,0 +1,15 @@
+.footer {
+	text-align: center;
+}
+
+.authList {
+	display: flex;
+	justify-content: center;
+	gap: 50px;
+}
+
+.authList > li {
+	align-items: center;
+	font-size: 22px;
+	font-weight: 600;
+}
