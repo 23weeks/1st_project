@@ -1,15 +1,43 @@
+.header {
+	height: 50px;
+	border-bottom: 1px solid black;
+	
+}
+
+.header-content {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 20px;
+	padding-top: 10px;
+	margin-right: 20px;
+}
+
 .footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
 	text-align: center;
+	margin: 10px auto;
+	border-top: 1px solid black;
 }
 
 .authList {
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	gap: 50px;
 }
 
-.authList > li {
+.authList > div {
+	display: flex;
+	height: 34px;
 	align-items: center;
-	font-size: 22px;
+	font-size: 20px;
 	font-weight: 600;
+}
+
+.authList > div > a {
+	display: flex;
+	align-items: center;
 }

@@ -1,27 +1,52 @@
-import React, {useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
+
+import URL from 'constants/url';
 
 function Header() {
-	const [message, setMessage] = useState("");
+	console.log("------------------ [start] Header ------------------")
+	
+	const [data, setData] = useState("");
+	const [name1, setName1] = useState("");
 
-    useEffect(() => {
-      fetch('/test/api.do')
-          .then(response => response.text())
-          .then(message => {
-              setMessage(message);
-          });
-    },[])
+	const navigate = useNavigate();
+
+	const logInHandler = () => {
+		console.log("navigate =>> login");
+		navigate(URL.LOGIN);
+	}
+	
+	const logOutHandler = () => {
+		console.log("navigate =>> main");
+		navigate(URL.MAIN);
+	}
+
+	useEffect(() => {
+		fetch('/test/api.do')
+			.then(response => response.json())
+			.then(data => {
+				console.log(data);
+				setData(data);
+				setName1(data.name3);
+			});
+	},[])
+	
+	console.log("------------------- [end] Header -------------------");
 	
 	return (
-		<div className="wrapper">
-			<div className="board_table">
-				<div className="board_tr">
-					<div className="board_th">
-						1번째
-					</div>
-					<div className="board_td">
-						{message}
-					</div>
-				</div>
+		<div className="header">
+			<div className="header-content">
+				{name1 &&
+					<>
+					<button onClick={logInHandler}>로그인</button>
+					</>
+				}
+				{!name1 &&
+					<>
+					<div>이름이 들어갈 자리</div>
+					<button onClick={logOutHandler}>로그아웃</button>
+					</>
+				}
 			</div>
 		</div>
 	);
