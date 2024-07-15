@@ -8,6 +8,10 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 	<BrowserRouter>
+		{
+		/*나중에 App으로 대체*/
+		/*<App />*/
+		}
 		<Header />
 		<Footer />
 	</BrowserRouter>
