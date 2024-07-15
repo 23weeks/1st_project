@@ -74,6 +74,7 @@
   2) Terminal에 cd frontend 입력<br>
   3) npm start
 
+<h4>*react-router-dom 설치도 frontend 디렉터리에 설치</h4>
      
 <h3>3. Run Configurations 설정으로 구동방법</h3>
   1) eclipse 상단 Run > Run Configurations 클릭<br>
