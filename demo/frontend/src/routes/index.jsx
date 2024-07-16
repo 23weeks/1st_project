@@ -1,20 +1,12 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { Navigate, Routes, Route } from 'react-router-dom';
+
+//COMMON
+import Header from 'components/Header';
+import Footer from 'components/Footer';
 
 const RootRoutes = () => {
 	
-	const [data, setData] = useState("");
-
-	/*
-	useEffect(() => {
-		fetch('/test/api.do')
-			.then(response => response.json())
-			.then(data => {
-				console.log(data);
-				setData(data);
-			});
-	},[])
-	*/
 	return (
 		<>
 		<Header />
@@ -26,4 +18,4 @@ const RootRoutes = () => {
 	)
 }
 
-export default Board;
+export default RootRoutes;
