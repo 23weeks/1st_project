@@ -12,12 +12,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class commonController {
 
-	@GetMapping(value = "/test/api.do")
+	@GetMapping(value = "/jwtAuthAPI")
 	public Map<String, Object> testApi(Model model) {
 		Map<String, Object> map = new HashMap<String, Object>();
-		
-		map.put("name1", "sangju");
-		map.put("name2", "yejung");
 		
 		return map;
 	}

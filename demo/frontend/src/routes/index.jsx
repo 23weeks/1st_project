@@ -8,7 +8,7 @@ import Header from 'components/Header';
 import Footer from 'components/Footer';
 import Error from 'components/Error';
 
-import * as fetch from 'api/fetch';
+import * as api from 'api/fetch';
 
 const RootRoutes = () => {
 	//useLocation객체를 이용하여 정규표현식을 사용한 /admin/~ 으로 시작하는 경로와 비교에 사용(아래 1줄) */}
@@ -24,7 +24,7 @@ const RootRoutes = () => {
 			method: "POST",
 		};
 
-		fetch.requestFetch(jwtAuthURL, requestOptions, (resp) => {
+		api.requestFetch(jwtAuthURL, requestOptions, (resp) => {
 			//임시 true 처리
 			return setMounted(true);
 			
@@ -41,6 +41,7 @@ const RootRoutes = () => {
 		console.groupEnd("jwtAuthentication");
 	}, []);
 	
+	//시스템관리 메뉴인 /admin/으로 시작하는 URL은 모두 로그인이 필요하도록 코드추가(아래)
 	const isMounted = useRef(false); // 아래 로그인 이동 부분이 2번 실행되지 않도록 즉, 마운트 될 때만 실행되도록 변수 생성
 	const [mounted, setMounted] = useState(false); // 컴포넌트 최초 마운트 후 리렌더링 전 로그인 페이지로 이동하는 조건으로 사용
 	
@@ -67,9 +68,6 @@ const RootRoutes = () => {
 }
 
 const SecondRoutes = () => {
-	// eslint-disable-next-line no-unused-vars
-	const [loginVO, setLoginVO] = useState({});
-
 	//useRef객체를 사용하여 페이지 마운트 된 후 ui.js를 로딩 하도록 변경 코드 추가(아래)
 	const isMounted = useRef(false); // 아래 로그인 이동 부분이 2번 실행되지 않도록 즉, 마운트 될 때만 실행되도록 변수 생성
 	useEffect(() => {
