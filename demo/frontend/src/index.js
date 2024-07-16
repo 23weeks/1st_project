@@ -1,19 +1,13 @@
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import ReactDOM from 'react-dom/client';
-import Header from './components/Header';
-import Footer from './components/Footer';
 import reportWebVitals from './reportWebVitals';
+import App from 'App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 	<BrowserRouter>
-		{
-		/*나중에 App으로 대체*/
-		/*<App />*/
-		}
-		<Header />
-		<Footer />
+		<App />
 	</BrowserRouter>
 );
 

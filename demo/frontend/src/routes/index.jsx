@@ -11,7 +11,7 @@ const RootRoutes = () => {
 		<>
 		<Header />
 		<Routes>
-			<Route path={URL.MAIN} element={}></Route>
+			
 		</Routes>
 		<Footer />
 		</>
