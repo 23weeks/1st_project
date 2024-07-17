@@ -4,10 +4,6 @@ import URL from 'constants/url';
 import CODE from 'constants/code';
 import { getSessionItem, setSessionItem } from 'utils/storage';
 
-export function getQueryString(params){
-	return `?${Object.entries(params).map(e => e.join('=')).join('&') }`
-}
-
 export function requestFetch(url, requestOptions, handler, errorHandler) {
 	console.groupCollapsed("requestFetch");
 	console.log("requestFetch [URL] : ", SERVER_URL + url);
